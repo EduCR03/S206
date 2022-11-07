@@ -1,2 +1,2 @@
 # S206
-Repositrio Lab S206
+Repositorio Lab S206
