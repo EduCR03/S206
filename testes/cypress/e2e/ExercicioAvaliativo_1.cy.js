@@ -37,16 +37,6 @@ describe('Criando um cenario de teste para o site do inatel', () => {
     cy.get('#ctl00_Corpo_lblErro').should('have.text', 'Aluno não encontrado no curso selecionado !!!')
   })
 
-  it.skip('caso de teste: Acessando o comunicado do incidente', () => {
-    cy.visit('https://inatel.br/home/')
-    cy.get('#contract-1 > .policyMessage > .actionUser > .acceptCookie').click()
-    cy.get('.modal-footer > .btn').click()
-    cy.get('h1.colorfff').should('contains.text', 'Tecnologia é uma jornada.')
-    cy.get('.comunicadoOficial > .btn').click()
-    cy.visit('https://inatel.br/portal-da-privacidade/')
-    cy.get('h1').should('have.text', 'Portal da Privacidade')
-  })
-
   it.skip('caso de teste: Clicando no campo "Conheça o Inatel"', () => {
     cy.visit('https://inatel.br/home/')
     cy.get('#contract-1 > .policyMessage > .actionUser > .acceptCookie').click()
