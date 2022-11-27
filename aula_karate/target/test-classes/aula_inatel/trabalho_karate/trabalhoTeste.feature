@@ -35,13 +35,14 @@ Scenario: Verificar o retorno da API de pokemon e se o JSON é o esperado
     And match response.[0].name == "Venusaur"
     And match response.[0].number == "3"
 
-Scenario: Verificar o retorno de alguma API
+Scenario: Verificar o retorno da API se existe um pokemon chamado ponyta e verificando se a reposta leva para uma outra URL
     Given url url_base
     And path 'pokemon/ponyta'
     When method get 
     Then status 200
+    And match response.[0].abilities.normal.[1] == "Flash Fire"
 
-Scenario: Verificar o retorno de alguma API
+Scenario: Verificar o retorno da API e verificar se o segundo tipo do pokemon Steelix realmente é "Ground"
     Given url url_base
     And path 'pokemon/steelix'
     When method get 
