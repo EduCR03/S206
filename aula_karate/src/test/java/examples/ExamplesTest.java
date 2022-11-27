@@ -9,7 +9,7 @@ class ExamplesTest {
 
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:examples")
+        Results results = Runner.path("classpath:aula_inatel.trabalho_karate")
                 .tags("~@ignore")
                 //.outputCucumberJson(true)
                 .parallel(5);
