@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: aula_inatel.trabalho_karate.TrabalhoKarate
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.16 s - in aula_inatel.trabalho_karate.TrabalhoKarate
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.073 s - in aula_inatel.trabalho_karate.TrabalhoKarate

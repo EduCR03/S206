@@ -37,7 +37,7 @@ Scenario: Verificar o retorno da API de pokemon e se o JSON é o esperado
 
 Scenario: Verificar o retorno de alguma API
     Given url url_base
-    And path 'pokemon/regirock'
+    And path 'pokemon/ponyta'
     When method get 
     Then status 200
 
@@ -46,3 +46,4 @@ Scenario: Verificar o retorno de alguma API
     And path 'pokemon/steelix'
     When method get 
     Then status 200
+    And match response.[0].types.[1] == "Ground"
