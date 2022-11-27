@@ -634,3 +634,2735 @@ classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:12
 1 < developer-url: https://sankarsankampa.com
 1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
 [{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:21:38.741 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:21:39.371 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:39.607 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:40.575 [main] DEBUG com.intuit.karate - response time in milliseconds: 942
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:21:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 496
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:21:40.595 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:40.597 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:41.305 [main] DEBUG com.intuit.karate - response time in milliseconds: 706
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:21:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 495
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:21:41.315 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:41.318 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:42.194 [main] DEBUG com.intuit.karate - response time in milliseconds: 875
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:21:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 494
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:21:42.202 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:42.204 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:42.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 704
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:21:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 493
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:21:42.917 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:42.920 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:43.768 [main] DEBUG com.intuit.karate - response time in milliseconds: 847
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:21:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 492
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:21:43.794 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.number == "3"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '3'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:21:43.807 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:43.809 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:44.504 [main] DEBUG com.intuit.karate - response time in milliseconds: 695
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:21:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 491
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:21:44.512 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:21:44.515 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:21:45.189 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:21:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 490
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:24:53.442 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:24:54.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:54.297 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:55.430 [main] DEBUG com.intuit.karate - response time in milliseconds: 1108
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:24:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 489
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:24:55.446 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:55.448 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:56.104 [main] DEBUG com.intuit.karate - response time in milliseconds: 656
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:24:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 488
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:24:56.114 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:56.117 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:56.786 [main] DEBUG com.intuit.karate - response time in milliseconds: 669
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:24:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 487
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:24:56.795 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:56.797 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:57.633 [main] DEBUG com.intuit.karate - response time in milliseconds: 836
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:24:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 486
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:24:57.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:57.645 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:58.408 [main] DEBUG com.intuit.karate - response time in milliseconds: 762
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:24:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 485
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:24:58.428 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.number == '3'
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '3'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:24:58.440 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:58.443 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:59.100 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:24:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 484
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:24:59.116 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:24:59.118 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:24:59.973 [main] DEBUG com.intuit.karate - response time in milliseconds: 854
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:24:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 483
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:25:23.200 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:25:23.822 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:24.048 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:25.094 [main] DEBUG com.intuit.karate - response time in milliseconds: 1024
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:25:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 482
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:25:25.114 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:25.117 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:25.899 [main] DEBUG com.intuit.karate - response time in milliseconds: 781
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:25:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 481
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:25:25.909 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:25.911 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:26.601 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:25:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 480
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:25:26.608 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:26.610 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:27.264 [main] DEBUG com.intuit.karate - response time in milliseconds: 654
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:25:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 479
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:25:27.274 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:27.276 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:27.997 [main] DEBUG com.intuit.karate - response time in milliseconds: 720
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:25:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 478
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:25:28.014 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.number == 3
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  3
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:25:28.025 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:28.026 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:28.689 [main] DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:25:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 477
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:25:28.697 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:25:28.699 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:25:29.359 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:25:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 476
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:30:13.235 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:30:13.915 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:14.151 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:15.361 [main] DEBUG com.intuit.karate - response time in milliseconds: 1189
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 475
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:30:15.378 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:15.380 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:16.047 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:30:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 474
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.003ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:30:16.056 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:16.060 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:16.795 [main] DEBUG com.intuit.karate - response time in milliseconds: 734
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:30:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 473
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:30:16.801 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:16.804 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:17.635 [main] DEBUG com.intuit.karate - response time in milliseconds: 831
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 472
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:30:17.643 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:17.648 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:18.307 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 471
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:30:18.311 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.numbe = "3"
+syntax error, expected '==' for match
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:30:18.322 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:18.325 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:19.001 [main] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 470
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:30:19.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:19.009 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:19.686 [main] DEBUG com.intuit.karate - response time in milliseconds: 675
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 469
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:30:57.180 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:30:57.806 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:58.042 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:30:59.046 [main] DEBUG com.intuit.karate - response time in milliseconds: 983
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 468
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:30:59.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:30:59.065 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:00.020 [main] DEBUG com.intuit.karate - response time in milliseconds: 955
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:30:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 467
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:31:00.030 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:00.034 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:00.800 [main] DEBUG com.intuit.karate - response time in milliseconds: 766
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:30:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 466
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:31:00.807 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:00.809 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:01.470 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:30:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 465
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:31:01.477 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:01.480 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:02.448 [main] DEBUG com.intuit.karate - response time in milliseconds: 967
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:31:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 464
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:31:02.466 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.number == "3"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '3'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:31:02.478 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:02.479 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:03.199 [main] DEBUG com.intuit.karate - response time in milliseconds: 719
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:31:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 463
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:31:03.206 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:03.207 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:31:03.877 [main] DEBUG com.intuit.karate - response time in milliseconds: 670
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:31:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 462
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.003ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:32:08.483 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:32:09.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:09.339 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:10.224 [main] DEBUG com.intuit.karate - response time in milliseconds: 863
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:32:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 458
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:32:10.243 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:10.245 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:10.911 [main] DEBUG com.intuit.karate - response time in milliseconds: 665
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:32:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 457
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:32:10.920 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:10.923 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:11.577 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:32:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 456
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.004ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:32:11.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:11.589 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:12.247 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:32:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 455
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:32:12.255 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:12.258 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:12.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:32:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 454
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:32:12.937 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.name == "Venusaur"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Venusaur'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:32:12.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:12.953 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:13.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 754
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:32:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 453
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:32:13.714 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:32:13.716 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:32:14.395 [main] DEBUG com.intuit.karate - response time in milliseconds: 679
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:32:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 452
+1 < x-ratelimit-reset: 1669612307
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+14:56:36.301 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:56:36.930 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:37.193 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:38.250 [main] DEBUG com.intuit.karate - response time in milliseconds: 1037
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:56:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 499
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+14:56:38.269 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:38.271 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:38.941 [main] DEBUG com.intuit.karate - response time in milliseconds: 669
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:56:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 498
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:56:38.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:38.952 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:39.706 [main] DEBUG com.intuit.karate - response time in milliseconds: 753
+1 < 404
+1 < Date: Sun, 27 Nov 2022 17:56:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 497
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+14:56:39.713 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:39.715 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:40.410 [main] DEBUG com.intuit.karate - response time in milliseconds: 695
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:56:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 496
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+14:56:40.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:40.421 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:41.069 [main] DEBUG com.intuit.karate - response time in milliseconds: 648
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:56:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 495
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+14:56:41.087 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.name == "Venusaur"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Venusaur'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+14:56:41.099 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:41.101 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:41.754 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:56:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 494
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+14:56:41.761 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:41.763 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:42.506 [main] DEBUG com.intuit.karate - response time in milliseconds: 743
+1 < 200
+1 < Date: Sun, 27 Nov 2022 17:56:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 493
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:06:36.572 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:06:37.204 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:37.431 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:38.398 [main] DEBUG com.intuit.karate - response time in milliseconds: 945
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:06:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 492
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:06:38.419 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:38.423 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:39.095 [main] DEBUG com.intuit.karate - response time in milliseconds: 672
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:06:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 491
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:06:39.106 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:39.108 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:39.765 [main] DEBUG com.intuit.karate - response time in milliseconds: 656
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:06:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 490
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:06:39.772 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:39.776 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:40.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 732
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:06:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 489
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:06:40.516 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:40.519 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:41.217 [main] DEBUG com.intuit.karate - response time in milliseconds: 697
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:06:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 488
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:06:41.233 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.name == "Venusaur"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Venusaur'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+15:06:41.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:41.246 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:42.080 [main] DEBUG com.intuit.karate - response time in milliseconds: 833
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:06:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 487
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:06:42.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:06:42.088 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:06:42.747 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:06:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 486
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:09:35.762 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:09:36.419 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:36.671 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:37.647 [main] DEBUG com.intuit.karate - response time in milliseconds: 949
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:09:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 485
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:09:37.667 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:37.670 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:38.421 [main] DEBUG com.intuit.karate - response time in milliseconds: 751
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:09:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 484
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:09:38.431 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:38.434 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:39.253 [main] DEBUG com.intuit.karate - response time in milliseconds: 819
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:09:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 483
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:09:39.262 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:39.264 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:40.092 [main] DEBUG com.intuit.karate - response time in milliseconds: 828
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:09:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 482
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:09:40.101 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:40.104 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:40.761 [main] DEBUG com.intuit.karate - response time in milliseconds: 655
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:09:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 481
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:09:40.779 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+And match response.name == "Venusaur"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Venusaur'
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:28
+15:09:40.791 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:40.794 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:41.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 714
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:09:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 480
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:09:41.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:41.517 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:09:42.169 [main] DEBUG com.intuit.karate - response time in milliseconds: 651
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:09:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 479
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:11:49.622 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:11:50.264 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:50.487 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:51.498 [main] DEBUG com.intuit.karate - response time in milliseconds: 989
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:11:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 478
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:11:51.520 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:51.522 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:52.213 [main] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:11:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 477
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:11:52.224 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:52.226 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:52.915 [main] DEBUG com.intuit.karate - response time in milliseconds: 689
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:11:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 476
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:11:52.922 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:52.924 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:53.574 [main] DEBUG com.intuit.karate - response time in milliseconds: 649
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:11:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 475
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:11:53.582 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:53.584 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:54.388 [main] DEBUG com.intuit.karate - response time in milliseconds: 802
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:11:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 474
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:11:54.421 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:54.424 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:55.106 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:11:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 473
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:11:55.113 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:55.115 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:55.810 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:11:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 472
+1 < x-ratelimit-reset: 1669614731
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:26:35.197 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:26:35.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:36.070 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:47.844 [main] DEBUG com.intuit.karate - response time in milliseconds: 11752
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:26:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 499
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.027ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:26:47.861 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:47.863 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:48.746 [main] DEBUG com.intuit.karate - response time in milliseconds: 882
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:26:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 498
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:26:48.756 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:48.759 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:49.435 [main] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:26:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 497
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:26:49.444 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:49.446 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:50.115 [main] DEBUG com.intuit.karate - response time in milliseconds: 668
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:26:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 496
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:26:50.124 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:50.126 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:50.817 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:26:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 495
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:26:50.849 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:30
+And match reponse.[0].number == "3"
+>>>> js failed:
+01: reponse
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "reponse" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:30
+15:26:50.862 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:50.864 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:51.621 [main] DEBUG com.intuit.karate - response time in milliseconds: 756
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:26:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 494
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:26:51.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:51.631 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:52.302 [main] DEBUG com.intuit.karate - response time in milliseconds: 668
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:26:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 493
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:27:44.426 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:27:45.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:45.281 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:46.217 [main] DEBUG com.intuit.karate - response time in milliseconds: 909
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:27:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 492
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:27:46.234 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:46.237 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:47.125 [main] DEBUG com.intuit.karate - response time in milliseconds: 887
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:27:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 491
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:27:47.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:47.137 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:47.813 [main] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:27:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 490
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:27:47.822 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:47.824 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:48.530 [main] DEBUG com.intuit.karate - response time in milliseconds: 705
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:27:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 489
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:27:48.537 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:48.539 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:49.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:27:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 488
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:27:49.259 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:30
+And match reponse.[0].number == "3"
+>>>> js failed:
+01: reponse
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "reponse" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:30
+15:27:49.270 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:49.272 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:50.019 [main] DEBUG com.intuit.karate - response time in milliseconds: 745
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:27:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 487
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:27:50.028 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:50.030 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:50.711 [main] DEBUG com.intuit.karate - response time in milliseconds: 679
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:27:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 486
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:28:34.887 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:28:35.536 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:35.790 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:36.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 1081
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:28:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 485
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:28:36.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:36.916 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:37.584 [main] DEBUG com.intuit.karate - response time in milliseconds: 668
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:28:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 484
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:28:37.592 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:37.595 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:38.377 [main] DEBUG com.intuit.karate - response time in milliseconds: 782
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:28:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 483
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:28:38.387 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:38.389 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:39.176 [main] DEBUG com.intuit.karate - response time in milliseconds: 787
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:28:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 482
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:28:39.183 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:39.186 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:39.968 [main] DEBUG com.intuit.karate - response time in milliseconds: 781
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:28:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 481
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:28:39.992 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:39.996 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:40.739 [main] DEBUG com.intuit.karate - response time in milliseconds: 742
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:28:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 480
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:28:40.745 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:28:40.747 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:28:41.406 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:28:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 479
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:34:51.096 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:34:51.713 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:51.985 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:52.877 [main] DEBUG com.intuit.karate - response time in milliseconds: 870
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:34:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 465
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:34:52.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:52.898 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:53.740 [main] DEBUG com.intuit.karate - response time in milliseconds: 842
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:34:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 464
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:34:53.752 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:53.754 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:54.433 [main] DEBUG com.intuit.karate - response time in milliseconds: 678
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:34:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 463
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:34:54.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:54.442 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+15:34:54.455 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:54.456 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+15:34:54.463 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:54.466 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:55.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:34:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 462
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:34:55.127 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:55.129 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:55.807 [main] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:34:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 461
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:35:16.442 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:35:17.076 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:17.326 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:18.134 [main] DEBUG com.intuit.karate - response time in milliseconds: 785
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:35:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 460
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:35:18.151 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:18.155 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:18.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:35:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 459
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:35:18.832 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:18.837 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:19.514 [main] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:35:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 458
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:35:19.521 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.525 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+15:35:19.540 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.542 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+15:35:19.550 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.553 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:20.214 [main] DEBUG com.intuit.karate - response time in milliseconds: 658
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:35:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 457
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:35:20.221 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:20.223 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:20.891 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:35:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 456
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:46:33.575 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:46:34.255 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:34.510 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:35.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 944
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:46:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 455
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:46:35.496 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:35.499 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:36.220 [main] DEBUG com.intuit.karate - response time in milliseconds: 719
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:46:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 454
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:46:36.230 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:36.235 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:36.888 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:46:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 453
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:46:36.896 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:36.899 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:27
+15:46:36.915 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:36.917 [main] ERROR com.intuit.karate - classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+Then status 200
+Cannot invoke "com.intuit.karate.http.Response.getStatus()" because "this.response" is null
+classpath:aula_inatel/trabalho_karate/trabalhoTeste.feature:32
+15:46:36.925 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:36.927 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:37.619 [main] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:46:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 452
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.003ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:46:37.628 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:46:37.631 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:46:38.324 [main] DEBUG com.intuit.karate - response time in milliseconds: 692
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:46:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 451
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
+15:47:50.813 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:47:51.433 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:51.685 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/pikachu
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:52.646 [main] DEBUG com.intuit.karate - response time in milliseconds: 939
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:47:50 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 844
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 450
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"34c-nkD20NflTK3zy2PXwnXQ7mH2D/k"
+[{"mega":false,"types":["Electric"],"eggGroups":["Field","Fairy"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"13.2 lbs.","description":"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.","mythical":false,"abilities":{"normal":["Static"],"hidden":["Lightning Rod"]},"number":"25","gen":1,"species":"Mouse","legendary":false,"name":"Pikachu","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/25.png","family":{"evolutionStage":2,"id":10,"evolutionLine":["Pichu","Pikachu","Raichu"]},"height":"1'04\""}]
+15:47:52.662 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:52.667 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/Eduardo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:53.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 866
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:47:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 449
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:47:53.543 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:53.546 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/1234
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:54.215 [main] DEBUG com.intuit.karate - response time in milliseconds: 669
+1 < 404
+1 < Date: Sun, 27 Nov 2022 18:47:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 141
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 448
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"8d-WMeXjtoxqJ9GXCzFOq6BAT5QIRU"
+{"error":404,"message":"Oh snap! No Pokémon has been discovered in this region. You should head home: https:\/\/pokedevs.gitbook.io"}
+15:47:54.222 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:54.225 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/mewtwo
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:54.886 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:47:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2355
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 447
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"933-3EtBeatWqbD7elqypvPnkVJRLdo"
+[{"mega":false,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"269 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Pressure"],"hidden":["Unnerve"]},"number":"150","gen":1,"species":"Genetic","legendary":true,"name":"Mewtwo","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"6'07\""},{"mega":true,"types":["Psychic","Fighting"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"280 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Steadfast"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo X","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-x.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"7'07\""},{"mega":true,"types":["Psychic"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"72.8 lbs.","description":"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling.","mythical":false,"abilities":{"normal":["Insomnia"],"hidden":["Unnerve"]},"number":"150","gen":6,"species":"Genetic","legendary":true,"name":"Mega Mewtwo Y","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/150-mega-y.png","family":{"evolutionStage":1,"id":77,"evolutionLine":["Mewtwo"]},"height":"4'11\""}]
+15:47:54.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:54.897 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/venusaur
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:55.546 [main] DEBUG com.intuit.karate - response time in milliseconds: 647
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:47:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1737
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 446
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"6c9-PKRyi8bXj0xp/ZxgeYy9AnDYaEE"
+[{"mega":false,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"220.5 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Chlorophyll"]},"number":"3","gen":1,"species":"Seed","legendary":false,"name":"Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"6'07\""},{"mega":true,"types":["Grass","Poison"],"eggGroups":["Monster","Grass"],"gender":[87.5,12.5],"starter":false,"ultraBeast":false,"weight":"342.8 lbs.","description":"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.","mythical":false,"abilities":{"normal":["Overgrow"],"hidden":["Thick Fat"]},"number":"3","gen":6,"species":"Seed","legendary":false,"name":"Mega Venusaur","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/3-mega.png","family":{"evolutionStage":3,"id":1,"evolutionLine":["Bulbasaur","Ivysaur","Venusaur"]},"height":"7'10\""}]
+15:47:55.575 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:55.578 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/regirock
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:56.321 [main] DEBUG com.intuit.karate - response time in milliseconds: 743
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:47:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 841
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 445
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.002ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"349-hL882Rssxpoq0b13+4+J0eHWqR0"
+[{"mega":false,"types":["Rock"],"eggGroups":["Undiscovered"],"gender":[],"starter":false,"ultraBeast":false,"weight":"507.1 lbs.","description":"REGIROCK\u2019s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.","mythical":false,"abilities":{"normal":["Clear Body"],"hidden":["Sturdy"]},"number":"377","gen":3,"species":"Rock Peak","legendary":true,"name":"Regirock","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/377.png","family":{"evolutionStage":1,"id":193,"evolutionLine":["Regirock"]},"height":"5'07\""}]
+15:47:56.327 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:47:56.330 [main] DEBUG com.intuit.karate - request:
+1 > GET https://pokeapi.glitch.me/v1/pokemon/steelix
+1 > Host: pokeapi.glitch.me
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:47:56.995 [main] DEBUG com.intuit.karate - response time in milliseconds: 665
+1 < 200
+1 < Date: Sun, 27 Nov 2022 18:47:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 1689
+1 < Connection: keep-alive
+1 < x-ratelimit-limit: 500
+1 < x-ratelimit-remaining: 444
+1 < x-ratelimit-reset: 1669616806
+1 < x-response-time: 0.001ms
+1 < developer: Sankarsan Kampa (a.k.a. k3rn31p4nic)
+1 < developer-url: https://sankarsankampa.com
+1 < etag: W/"699-QHQJZ+nIuzHS5k0GBCdDu4TbmLc"
+[{"mega":false,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"881.8 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Rock Head","Sturdy"],"hidden":["Sheer Force"]},"number":"208","gen":2,"species":"Iron Snake","legendary":false,"name":"Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"30'02\""},{"mega":true,"types":["Steel","Ground"],"eggGroups":["Mineral"],"gender":[50,50],"starter":false,"ultraBeast":false,"weight":"1631.4 lbs.","description":"The many small metal particles that cover this POKéMON's body reflect bright light well.","mythical":false,"abilities":{"normal":["Sand Force"],"hidden":["Sheer Force"]},"number":"208","gen":6,"species":"Iron Snake","legendary":false,"name":"Mega Steelix","sprite":"https:\/\/cdn.traction.one\/pokedex\/pokemon\/208-mega.png","family":{"evolutionStage":2,"id":41,"evolutionLine":["Onix","Steelix"]},"height":"34'05\""}]
