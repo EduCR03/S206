@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.Prova2_S206.ProvaTesteAPI
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.17 s - in aula_inatel.Prova2_S206.ProvaTesteAPI
